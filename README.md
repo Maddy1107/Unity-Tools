@@ -1,9 +1,5 @@
 # Unity Editor Utility Toolkit
 
-[![Unity](https://img.shields.io/badge/Unity-2020.3%2B-blue.svg?style=flat-square&logo=unity)](https://unity.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Editor-orange.svg?style=flat-square)]()
-
 A collection of high-performance, lightweight Unity editor windows and utilities designed to optimize game development workflows. This toolkit includes tools for visual asset reference tracing, asynchronous asset filtering, data decryption, custom date/time selection, and generic enum searching.
 
 ---
@@ -160,7 +156,3 @@ private void ScanStep()
 The `DependencyCache` saves the results of expensive queries (`AssetDatabase.GetDependencies`). It uses an `AssetPostprocessor` hook to invalidate and clear itself automatically only when assets are imported, deleted, or moved, ensuring search accuracy while maintaining high performance.
 
 ---
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
